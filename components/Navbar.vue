@@ -7,6 +7,7 @@
             <ul class="flex items-center text-white">
                 <li class="link inline-block mx-4"><NuxtLink to="/">Home</NuxtLink></li>
                 <li class="link inline-block mx-4"><NuxtLink to="#">About</NuxtLink></li>
+                <li class="link inline-block mx-4"><NuxtLink to="/#rules">Rules</NuxtLink></li>
                 <li class="link inline-block mx-4"><NuxtLink to="#">Donation</NuxtLink></li>
                 <li class="link inline-block ml-4 px-5 py-2 bg-main text-white"><NuxtLink to="https://discord.gg/e9kbXcHBjN" target="_blank" rel="nofollow">Discord</NuxtLink></li>
             </ul>

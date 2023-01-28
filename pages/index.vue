@@ -13,8 +13,24 @@
         </div>
     </header>
     <section class="max-w-4xl m-auto">
-        <div class="px-4 py-[80px]">
-            <h1 class="text-6xl text-light-gray">Rules</h1>
+        <div class="px-4 py-[80px] text-light-gray" id="rules">
+            <h1 class="text-6xl text-white mb-6">Rules</h1>
+            <p class="mb-6">List Of Rules you have to follow: By iLoBBer <i class="p-1 rounded-full text-white bg-main"><Icon name="material-symbols:check-small-rounded" /></i></p>
+            <h3 class="text-white text-2xl mb-3">Who can ban or unban?</h3>
+            <p class="mb-6">Cheating will not be tolerated. Any violations will result in a permanent ban. There will be no appeals or requests for unbanning from any administrator. All cases will be thoroughly investigated before a decision is made. Proof of the violation and the reason for the ban will be posted on Discord.</p>
+            <h1 class="text-white text-2xl mb-3">Rules List:</h1>
+            <ul>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No cheating or exploiting game bugs.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No hacking or use of third-party programs to gain an unfair advantage.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No griefing or intentionally causing harm to other players' bases or structures.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No spamming or excessive use of offensive language in chat.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No sharing personal information of other players.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No scamming or attempting to deceive other players.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No building in or near monuments or public areas.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No blocking or trapping other players in bases or structures.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>No racist, sexist, or other discriminatory language or behavior.</li>
+                <li><i class="inline-block p-[3px] px-[5px] mb-2 bg-main text-white rounded-full mr-2"><Icon name="material-symbols:check-small-rounded" /></i>Respect all players and staff members.</li>
+            </ul>
         </div>
     </section>
 </template>
