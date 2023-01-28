@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #1b1b1b;
+}
+
+body:after {
+    background-image: url("https://files.facepunch.com/garry/1b1011b1/test.png?1=");
+    content: " ";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 500;
+    pointer-events: none;
+    opacity: .6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+
+
+.link {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-body{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/background.jpg");
+}
+
+.title {
+    @apply text-[12rem] leading-[12rem] font-[500] text-light-gray;
+    word-spacing: 100vw;
+}
+
+.overlay{
+    background: black;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 212, 255, 0)));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 212, 255, 0) 100%);
+}
